@@ -2,7 +2,7 @@
 Description of the classes and methods in session4.py and test_session4.py
 
 ### Qualean
-Qualean class is inspired by Boolean+Quantum concepts. We can assign it only 3 possible real states. True, False, and Maybe (1, 0, -1) but it internally picks an imaginary state. The moment you assign it a real number, it immediately finds an imaginary number random.uniform(-1, 1) and multiplies with it and stores that number internally after using Bankers rounding to 10th decimal place
+Qualean class is inspired by Boolean+Quantum concepts. We can assign it only three possible real states. True, False, and Maybe (1, 0, -1). Tt internally picks an imaginary state. The moment you assign it a real number, it immediately finds an imaginary number random.uniform(-1, 1) and multiplies with the number and stores that number internally after using Bankers rounding to 10th decimal place
 
 ### __and__
 This method implements the logical and gate for the user defined Qualean objects
@@ -11,7 +11,7 @@ This method implements the logical and gate for the user defined Qualean objects
 This method implements the logical and gate for the user defined Qualean objects
 
 ### __repr__
-This method returns the representation of the Qualean object and the value it contains in a nicely formatted string.
+This method returns the representation of the Qualean object and the value it contains in a neatly formatted string.
 
 ### __str__
 This method returns the str object of value of the Qualean object mentioned.
@@ -55,7 +55,7 @@ This method implements the mathematical Square root operation on the Qualean obj
 ## test_session4.py
 It consists of all the test cases for the Qualean class 
 
-### test_indentations
+### test_your_indentations
 Test case to check the indentation of the session4.py file.
 
 ### test_and_when_q2_not_defined
@@ -83,7 +83,7 @@ Test case to check q + q + q ... 100 times = 100 * q
 Test case to check the greater than or equal to (__ge__) comparison of the two Qualean objects.
 
 ### test_all_functions_exist
-Test case to check that code contains all the required functions
+Test case to check that thecode contains all the required functions
 
 ### test_readme_exists
 Test case to check if the README.md file exists or not in the repo.
